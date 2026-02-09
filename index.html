@@ -1137,48 +1137,47 @@ Sisi ni brand ya viungo asilia (spice pastes) iliyojikita katika kuleta urahisi,
         <div class="col-md-6">
           <div class="_container">
             <form action="https://formsubmit.co/ibrahmbapila@gmail.com" method="POST">
-              <div>
-                <input type="text" class="form-control" placeholder="Jina lako" name="Jina" required />
-              </div>
-              <br>
-              <div>
-                <input type="number" class="form-control" placeholder="Namaba za simu" name="Namaba Za Simu" required />
-              </div>
-              <br>
-              <div>
-                <input type="email" class="form-control" placeholder="Email yako" name="Email" required />
-              </div>
-              <br>
-              <div>
-                <select type="text" class="form-control nice-select wide" name="Anahitaji" required >
-  <option value="" disabled selected>
-    Unahitaji?
-  </option>
-  <option value="pasta">
-    Delicious Pasta
-  </option>
-  <option value="">
-    Delicious Garlic Paste
-  </option>
-  <option value="">
-    Pilipili Ibrah
-  </option>
-  <option value="">
-    Aroma Mix Paste
-  </option>
-  <option value="">
-    Mixed Spice Paste
-  </option>
-  <option value="">
-    Ginger Garlic Paste
-  </option>
-</select>
-     </div> 
+
+  <!-- Redirect after submit -->
+  <input type="hidden" name="_next" value="thanks">
+  
+  <!-- Optional: disable captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <div>
+    <input type="text" class="form-control" placeholder="Jina lako" name="Jina" required />
+  </div>
   <br>
-              <div class="btn_box">
-                <button type="submit" class="btn btn-warning">Order Now</button>
-              </div>
-            </form>
+
+  <div>
+    <input type="number" class="form-control" placeholder="Namba ya simu" name="Namba Za Simu" required />
+  </div>
+  <br>
+
+  <div>
+    <input type="email" class="form-control" placeholder="Email yako" name="Email" required />
+  </div>
+  <br>
+
+  <div>
+    <select class="form-control nice-select wide" name="Anahitaji" required>
+      <option value="" disabled selected>Unahitaji?</option>
+      <option value="Delicious Pasta">Delicious Pasta</option>
+      <option value="Delicious Garlic Paste">Delicious Garlic Paste</option>
+      <option value="Pilipili Ibrah">Pilipili Ibrah</option>
+      <option value="Aroma Mix Paste">Aroma Mix Paste</option>
+      <option value="Mixed Spice Paste">Mixed Spice Paste</option>
+      <option value="Ginger Garlic Paste">Ginger Garlic Paste</option>
+    </select>
+  </div>
+  <br>
+
+  <div class="btn_box">
+    <button type="submit" class="btn btn-warning">Order Now</button>
+  </div>
+
+</form>
+
           </div>
         </div> <br>
         <!-- <div class="col-md-6">
